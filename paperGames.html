@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <head>
 <meta charset='utf-8'>
@@ -8,6 +7,7 @@
 <meta content='' name='author'>
 <link href='../../favicon.ico' rel='icon'>
 <title>PonksToy</title>
+<link rel="stylesheet" type="text/css" href="paperGames.css">
 <link href='http://fonts.googleapis.com/css?family=Gloria+Hallelujah|Ubuntu:400,700' rel='stylesheet' type='text/css'>
 <link href="http://www.ponkstoy.com/assets/application-5b225f94cd9d8c1e486b7eb428f29984.css" media="all" rel="stylesheet" />
 <script src="http://www.ponkstoy.com/assets/application-c54c71a62665a24f2288718cb710ae07.js"></script>
@@ -24,6 +24,16 @@
  
 <body>
 <div id='fb-root'></div>
+
+<script src="http://twitter.github.com/bootstrap/assets/js/bootstrap-carousel.js"></script>
+  <script>
+      !function ($) {
+        $(function(){
+          // carousel demo
+          $('#myCarousel').carousel()
+        })
+      }(window.jQuery)
+    </script>
 
 <script>
   (function(d, s, id) {
@@ -168,7 +178,112 @@ uma única vez
 </div>
 </div>
 </center>
-</section> 
+</section>
+
+<section class="ponksCarousel">
+<center>
+<h1 class="labelGames">Alguns PaperGames Vendidos</h1>
+</center>
+  <div class="container">
+    <div class="row">
+        <!-- The carousel -->
+        <div id="transition-timer-carousel" class="carousel slide transition-timer-carousel" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#transition-timer-carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#transition-timer-carousel" data-slide-to="1"></li>
+        <li data-target="#transition-timer-carousel" data-slide-to="2"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active">
+                    <img class="img-game" src="C:/Users/INTEL/Desktop/imagens/jogo-1.png" />    
+                    <div class="container">
+            <div class="carousel-caption">
+              <h3 class="labelP">Tabuleiro de jogos</h3>
+              <p class="labelS as">
+                  Jogo educativo em que a criança precisa salvar o seu
+                  ponk pai herói dos vilões Bagunça e Sujeira, desenvolve
+                  sua capacidade lógica e estimula a criatividade. Os desafios
+                  envolvem o relacionamento entre o pai e o filho, gerando
+                  compreensão e carinho entre eles.
+              </p>
+          </div>
+          </div>
+                </div>
+                
+                <div class="item">
+                    <img class="img-game" src="C:/Users/INTEL/Desktop/imagens/jogo-2.png" />
+                    <div class="container">
+                    <div class="carousel-caption">
+                     <h3 class="labelP">Tabuleiro de jogos</h3>
+                  <p class="labelS">
+                  Jogo educativo em que a criança precisa salvar o seu
+                  ponk pai herói dos vilões Bagunça e Sujeira, desenvolve
+                  sua capacidade lógica e estimula a criatividade. Os desafios
+                  envolvem o relacionamento entre o pai e o filho, gerando
+                  compreensão e carinho entre eles.
+              </p>
+          </div>
+          </div>
+            </div>
+            </div>
+
+      <!-- Controls -->
+      <a class="left carousel-control" href="#transition-timer-carousel" data-slide="prev">
+      <img class="setaE" src="C:/Users/INTEL/Desktop/imagens/seta-2.png">
+      </a>
+      <a class="right carousel-control" href="#transition-timer-carousel" data-slide="next">
+        <img class="setaD"src="C:/Users/INTEL/Desktop/imagens/seta-1.png">
+      </a>
+            <!-- Timer "progress bar" -->
+            <hr class="transition-timer-carousel-progress-bar animate" />
+    </div>
+    </div>
+</div>
+<!--<img src="C:/Users/INTEL/Desktop/imagens/trilha.png"> 
+-->
+</section>
+<section class="outrosProdutos">
+  <center id="label_outro"><h2>Outros Produtos!</h2></center>
+<div class="container marketing">
+      <!-- Three columns of text below the carousel -->
+      <div id="outros_prod" class="row">
+        <div class="col-lg-4">
+          <img class="img-circle" src="C:Users/INTEL/Desktop/imagens/produto-1.png" style="width: 140px; height: 140px;">
+          <h2>Caneca do seu Pai Herói</h2>
+          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+          <p><a class="btn btn-default" href="#" role="button">+detalhes »</a></p>
+          <p> R$49,90</p>
+          <input id="btn1"class='action' style='width: 130px;background-color:#5cb85c;font-size:17px;' type='submit' value='Comprar'>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="C:Users/INTEL/Desktop/imagens/produto-2.png" style="width: 140px; height: 140px;">
+          <h2>Quadro do seu pai Herói</h2>
+          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+          <p><a class="btn btn-default" href="#" role="button">+detalhes »</a></p>
+           <p> R$59,90</p>
+           <input id="btn1"class='action' style='width: 130px;background-color:#5cb85c;font-size:17px;' type='submit' value='Comprar'>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="C:Users/INTEL/Desktop/imagens/produto-3.png" style="width: 140px; height: 140px;">
+          <h2>Caderninho do seu ponk</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum </p>
+          <p><a class="btn btn-default" href="#" role="button">+detalhes »</a></p>
+           <p> R$49,90</p>
+           <input id="btn1"class='action' style='width: 130px;background-color:#5cb85c;font-size:17px;' type='submit' value='Comprar'>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+    </div>
+ 
+ <div class="ponkito">
+     <img id="ponk" src="C:/Users/INTEL/Desktop/imagens/ponk.png">
+        <a id="voltar" href="#"><img src="C:/Users/INTEL/Desktop/imagens/voltar-topo.png"></a>
+  </div>    
+
+</section>
+
 <section class='col-md-12 rodape'>
 <center>
 <h1>Copyright 2014 - Ponks - Todos os direitos reservados</h1>
