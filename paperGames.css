@@ -1,0 +1,61 @@
+
+.labelGames{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.ponksCarousel{ 
+	background-image: url(C:/Users/INTEL/Desktop/imagens/xadrez.jpg);
+
+}
+.transition-timer-carousel .carousel-control {
+	z-index: 11;
+}
+.transition-timer-carousel .transition-timer-carousel-progress-bar {
+    height: 5px;
+    background-color: #5cb85c;
+    width: 0%;
+    margin: -5px 0px 0px 0px;
+    border: none;
+    z-index: 11;
+    position: relative;
+}
+.delimitadorC{
+	
+}
+.delimitadorD{
+
+}
+.trilhaD{
+	margin-top: 40px;
+	z-index: 1;
+	 
+}
+.labelP{
+	margin-left: 300px;
+    text-align: center;
+    color: black;
+}
+.labelS{
+    text-align: left;
+    float: right;
+    margin-left: 310px;
+}
+.img-game{
+	
+	border-style: solid;
+	border-width: 10px;
+	border-color: white;
+}
+.setaD{
+	margin-left: 200px;
+	margin-top: 80px;
+}
+.setaE{
+	float: left;
+	margin-left:-90px;
+	margin-top: 80px;
+}
+.ponkito{
+	float: right;
+}
